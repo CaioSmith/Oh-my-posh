@@ -8,9 +8,8 @@ Primeiramente você precisará ter instalado o [Windows Terminal](https://aka.ms
 
 ### Passo 1: Instalar o PowerShell
 
-```markdown
-1. Instale o [Powershell](https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D?hl=pt-br&gl=br) através da Microsoft Store.
-```
+1. É recomendável instalar o [Powershell](https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D?hl=pt-br&gl=br) através da Microsoft Store.
+
 ### Passo 2: Instalar o oh-my-posh
 
 1. Abra o PowerShell no qual você instalou anteriormente.
