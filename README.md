@@ -19,14 +19,34 @@ Primeiramente você precisará ter instalado o [Windows Terminal](https://aka.ms
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-3. Execute o seguinte comando para verificar as fontes disponiveis:
+### Passo 3: Configurar o oh-my-posh
+
+1. Crie o arquivo de perfil do Powershell:
 
 ```powershell
-get-PoshThemes
+if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
 ```
-
-4. Instale uma fonte de energia (theme) do Oh-my-posh. Por exemplo, para instalar o tema agnoster, execute o seguinte comando:
+2. Agora digite o comando:
 
 ```powershell
-Install-PoshTheme agnoster
+./notepad $PROFILE
 ```
+
+3. Cole o seguinte comando para inicializar o oh-my-posh no seu terminal:
+
+```powershell
+oh-my-posh init pwsh | Invoke-Expression
+```
+
+Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
+
+### Passo 4: Instalar uma fonte
+
+# Caso o seu terminal oh-my-posh não esteja esteticamente atraente, faltando ícones e etc, siga os seguintes passos
+
+1. Acesse [Nerd Fonts](https://www.nerdfonts.com/)
+2. Ao entrar no site, clique em Download.
+3. Selecione a fonte na qual deseja e clique em Download, recomendo instalar CaskadyaCove Nerd Font.
+4. Ao instalar a fonte, extraia o arquivo na qual você a instalou.
+5. Após extrair, selecione todos os arquivos presente, menos os arquivos LICENSE.md e readme.md
+6. Com os arquivos selenionados, clique com o botão direito do mouse e clique em "instalar".
