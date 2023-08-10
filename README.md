@@ -21,7 +21,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 
 ### Passo 3: Configurar o oh-my-posh
 
-1. Crie o arquivo de perfil do Powershell:
+1. Crie o arquivo de $PROFILE do Powershell:
 
 ```powershell
 if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
@@ -83,7 +83,7 @@ get-PoshThemes
 
 1.1 Ou se vá no próprio site do [oh-my-posh](https://ohmyposh.dev/docs/themes) para visualizar os temas liberados!
 
-2. Ao encontrar um tema atraente, altere o arquivo de perfil do powershell para setar o tema no qual você se interessou:
+2. Ao encontrar um tema atraente, altere o arquivo de $PROFILE do powershell para setar o tema no qual você se interessou:
 ```bash
 oh-my-posh init pwsh --config='$env:POSH_THEMES_PATH/jandedobbeleer.omp.json' | Invoke-Expression
 ```
@@ -120,3 +120,17 @@ oh-my-posh init pwsh --config='$env:POSH_THEMES_PATH/jandedobbeleer.omp.json' | 
 ```bash
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
+
+2. Após a instalação, abra o arquivo $PROFILE do powershell novamente, abaixo do comando de inicialização do tema, digite o seguinte:
+
+```bash
+Import-Module -Name Terminal-Icons
+```
+
+3. Salve e feche o arquivo
+
+### Pronto, agora ao digitar o comando "dir" ou "ls" os arquivos no seu diretório ficaram assim:
+
+![image_pwsh_with_icons](https://github.com/CaioSmith/Oh-my-posh/blob/b44c11eb4768a9aa6b10b25c196a87c98e2f9490/images/image_pwsh_icons.png)
+
+#### Com isso agora seu terminal estará completamente personalizado! para saber mais sobre a personalização do oh-my-posh, acesse o site [oficial](https://ohmyposh.dev/docs) para saber mais, obrigado por ler até aqui, espero ter ajudado na sua personalização!
