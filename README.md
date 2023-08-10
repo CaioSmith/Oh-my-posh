@@ -72,3 +72,14 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
             }
 }
 ```
+
+#### Feito isso seu terminal estará pronto. Agora vamos ver como alterar o tema oh-my-posh!
+
+1. Primeiro digite o seguinte comando para visualizar a variedade de temas disponiveis: 
+```powershell
+get-PoshThemes
+```
+
+1.1 Ou se vá no próprio site do [oh-my-posh](https://ohmyposh.dev/docs/themes) para visualizar os temas liberados!
+
+2. 
