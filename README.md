@@ -42,7 +42,7 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 
 ### Passo 4: Instalar uma fonte
 
-#### Caso o seu terminal oh-my-posh não esteja esteticamente atraente, faltando ícones ou etc, siga os seguintes passos
+## Caso o seu terminal oh-my-posh não esteja esteticamente atraente, faltando ícones ou etc, siga os seguintes passos
 ## Passo 1: Realizar download da fonte
 
 1. Acesse [Nerd Fonts](https://www.nerdfonts.com/)
@@ -74,7 +74,7 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 }
 ```
 
-#### Feito isso seu terminal estará pronto. Agora vamos ver como alterar o tema oh-my-posh!
+## Feito isso seu terminal estará pronto. Agora vamos ver como alterar o tema oh-my-posh!
 
 1. Primeiro digite o seguinte comando para visualizar a variedade de temas disponiveis: 
 ```powershell
