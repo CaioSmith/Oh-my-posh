@@ -60,3 +60,15 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 2. Clique em "Abrir o arquivo json"
 
 ![imagem_config](https://github.com/CaioSmith/Oh-my-posh/blob/b4d1013252249b50fc92ada0c07f1e289e23371b/image_config_pwsh.png)
+
+3. Agora procure por "defaults" e coloque as seguintes linhas:
+
+```json
+"defaults": {
+            "font": 
+            {
+                "face": "CaskaydiaCove Nerd Font",
+                "size": 10
+            }
+}
+```
