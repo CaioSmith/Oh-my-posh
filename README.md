@@ -43,6 +43,7 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 ### Passo 4: Instalar uma fonte
 
 #### Caso o seu terminal oh-my-posh não esteja esteticamente atraente, faltando ícones ou etc, siga os seguintes passos
+## Passo 1: Realizar download da fonte
 
 1. Acesse [Nerd Fonts](https://www.nerdfonts.com/)
 2. Ao entrar no site, clique em Download.
@@ -51,7 +52,7 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 5. Após extrair, selecione todos os arquivos presente, menos os arquivos LICENSE.md e readme.md
 6. Com os arquivos selenionados, clique com o botão direito do mouse e clique em "instalar".
 
-### Passo 1.1: Configurar a fonte no Windows Terminal
+### Passo 2: Configurar a fonte no Windows Terminal
 
 1. Abra as configurações do seu terminal Windows:
 
@@ -82,4 +83,17 @@ get-PoshThemes
 
 1.1 Ou se vá no próprio site do [oh-my-posh](https://ohmyposh.dev/docs/themes) para visualizar os temas liberados!
 
-2. 
+2. Ao encontrar um tema atraente, altere o arquivo de perfil do powershell para setar o tema no qual você se interessou:
+```bash
+oh-my-posh init pwsh --config='$env:POSH_THEMES_PATH/jandedobbeleer.omp.json' | Invoke-Expression
+```
+
+2.1 Altere "jandedobbeleer.omp.json" pelo tema que você quer!
+
+## Configurar o terminal no Visual Studio Code
+
+### Passo 1: Abrir arquivo "settings.json" do Visual Studio Code
+
+1. No VSCode, digite o comando "Ctrl + Shift + P"
+2. Pesquise por "settings.json":
+![Image_config_vscode](https://github.com/CaioSmith/Oh-my-posh/blob/ee638773a927f499e7a0be81f3bb8a132d3149bb/config_vscode.png)
