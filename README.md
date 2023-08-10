@@ -96,4 +96,5 @@ oh-my-posh init pwsh --config='$env:POSH_THEMES_PATH/jandedobbeleer.omp.json' | 
 
 1. No VSCode, digite o comando "Ctrl + Shift + P"
 2. Pesquise por "settings.json":
+
 ![Image_config_vscode](https://github.com/CaioSmith/Oh-my-posh/blob/ee638773a927f499e7a0be81f3bb8a132d3149bb/config_vscode.png)
