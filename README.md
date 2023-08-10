@@ -98,3 +98,17 @@ oh-my-posh init pwsh --config='$env:POSH_THEMES_PATH/jandedobbeleer.omp.json' | 
 2. Pesquise por "settings.json":
 
 ![Image_config_vscode](https://github.com/CaioSmith/Oh-my-posh/blob/ee638773a927f499e7a0be81f3bb8a132d3149bb/config_vscode.png)
+
+3. no arquivo json, digite a seguinte linha ao final do arquivo:
+
+```json
+"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font"
+```
+
+#### Feito isso, agora tanto o Windows Terminal quanto o Visual Studio Code e estarão configurados para utilizar o oh-my-posh!
+
+## Configurar Temas de ícones
+#### Se você estiver no Windows, digite o comando "dir" no seu terminal, verá os arquivos que estão presentes no seu diretório atual, existe uma forma de personalizar a aparência dos ícones, vamos ver!
+
+### Passo 1: 
+
