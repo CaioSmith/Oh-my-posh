@@ -42,7 +42,7 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 
 ### Passo 4: Instalar uma fonte
 
-# Caso o seu terminal oh-my-posh não esteja esteticamente atraente, faltando ícones ou etc, siga os seguintes passos
+#### Caso o seu terminal oh-my-posh não esteja esteticamente atraente, faltando ícones ou etc, siga os seguintes passos
 
 1. Acesse [Nerd Fonts](https://www.nerdfonts.com/)
 2. Ao entrar no site, clique em Download.
@@ -52,3 +52,9 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 6. Com os arquivos selenionados, clique com o botão direito do mouse e clique em "instalar".
 
 ### Passo 1.1: Configurar a fonte no Windows Terminal
+
+1. Abra as configurações do seu terminal Windows:
+
+[Clique na seta](C:\Users\smith\Pictures\image_git.png)
+
+2. Clique em "Abrir o arquivo json"
