@@ -108,7 +108,15 @@ oh-my-posh init pwsh --config='$env:POSH_THEMES_PATH/jandedobbeleer.omp.json' | 
 #### Feito isso, agora tanto o Windows Terminal quanto o Visual Studio Code e estarão configurados para utilizar o oh-my-posh!
 
 ## Configurar Temas de ícones
-#### Se você estiver no Windows, digite o comando "dir" no seu terminal, verá os arquivos que estão presentes no seu diretório atual, existe uma forma de personalizar a aparência dos ícones, vamos ver!
+#### Se você estiver no Windows, digite o comando "dir" no seu terminal, verá os arquivos que estão presentes no seu diretório atual:
 
-### Passo 1: 
+![image_pwsh](https://github.com/CaioSmith/Oh-my-posh/blob/5523bd92baf0b09ba24439286d260d06729e282b/images/image_pwsh.png)
+#### Existe uma forma de personalizar a aparência dos ícones, vamos ver!
 
+### Passo 1: Instalar o PowerShell Gallery
+
+1. Digite o seguinte comando no seu terminal:
+
+```bash
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
