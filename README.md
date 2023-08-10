@@ -29,7 +29,7 @@ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
 2. Agora digite o comando:
 
 ```powershell
-./notepad $PROFILE
+notepad $PROFILE
 ```
 
 3. Cole o seguinte comando para inicializar o oh-my-posh no seu terminal:
