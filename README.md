@@ -55,6 +55,6 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 
 1. Abra as configurações do seu terminal Windows:
 
-[Clique na seta](C:\Users\smith\Pictures\image_git.png)
+![Clique na seta](https://github.com/CaioSmith/Oh-my-posh/blob/fb8c0510b55804fc6a8b4031c5b50bde23ef42b1/image_git.png)
 
 2. Clique em "Abrir o arquivo json"
