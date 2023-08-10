@@ -80,7 +80,7 @@ Pronto, com isso o oh-my-posh já vai estar configurado no seu terminal!
 ```powershell
 get-PoshThemes
 ```
- Ou vá no próprio site do [oh-my-posh](https://ohmyposh.dev/docs/themes) para visualizar os temas liberados!
+Ou vá no próprio site do [oh-my-posh](https://ohmyposh.dev/docs/themes) para visualizar os temas liberados!
 
 2. Ao encontrar um tema atraente, altere o arquivo de $PROFILE do powershell para setar o tema no qual você se interessou:
 ```bash
