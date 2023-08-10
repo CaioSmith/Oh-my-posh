@@ -133,4 +133,4 @@ Import-Module -Name Terminal-Icons
 
 ![image_pwsh_with_icons](https://github.com/CaioSmith/Oh-my-posh/blob/b44c11eb4768a9aa6b10b25c196a87c98e2f9490/images/image_pwsh_icons.png)
 
-#### Com isso agora seu terminal estará completamente personalizado! para saber mais sobre a personalização do oh-my-posh, acesse o site [oficial](https://ohmyposh.dev/docs) para saber mais, obrigado por ler até aqui, espero ter ajudado na sua personalização!
+# Com isso agora seu terminal estará completamente personalizado! para saber mais sobre a personalização do oh-my-posh, acesse o site [oficial](https://ohmyposh.dev/docs) para saber mais, obrigado por ler até aqui, espero ter ajudado na sua personalização!
